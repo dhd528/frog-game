@@ -1,0 +1,47 @@
+#dsh-skin-panel {
+  position: fixed;
+  left: 12px;
+  bottom: 12px;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  border-radius: 12px;
+  background: rgba(23, 19, 33, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(8px);
+  font-family: system-ui, -apple-system, "Microsoft YaHei", sans-serif;
+}
+
+#dsh-skin-panel .dsh-skin-title {
+  color: #e9d9a8;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  opacity: 0.85;
+  padding: 0 2px;
+}
+
+#dsh-skin-panel .dsh-skin-btn {
+  all: unset;
+  cursor: pointer;
+  color: #f3e8ff;
+  font-size: 12px;
+  line-height: 1;
+  padding: 7px 11px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.06);
+  transition: background 120ms ease, border-color 120ms ease;
+}
+
+#dsh-skin-panel .dsh-skin-btn:hover {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+#dsh-skin-panel .dsh-skin-btn.active {
+  background: #ff8fb3;
+  border-color: #ffd0e0;
+  color: #2a1220;
+  font-weight: 700;
+}
